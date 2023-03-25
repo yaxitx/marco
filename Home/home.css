@@ -1,0 +1,676 @@
+#navBar{
+  margin-top: 15px;
+  width: 100%;
+  position: absolute;
+  padding-right: 15px;
+  right: 15px;
+  z-index: 1;
+ 
+}
+#navBar ul{
+  padding: 0;
+  margin: 0;
+  float: right;
+  display: inline;
+}
+#navBar a{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+  text-decoration: none;
+  padding-left: 2px;
+  color: rgb(255, 255, 255);
+  font-size: 17PX;
+}
+#navBar li{
+  font-size: 17px;
+  display: inline-flex;
+  padding: 5px 25px;
+
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+}
+
+#home, #productsnav, #bookingsnav, #quiz, #gallery,#sitemap, #about{
+  transform: scale(1,1);
+  transition: 0.2s ease;
+  
+}
+#home:hover{
+  border-radius: 0px;
+  transform: scale(1.2,1.2);
+}
+#productsnav:hover{
+  border-radius: 0px;
+  transform: scale(1.2,1.2);
+}
+#bookingsnav:hover{
+  border-radius: 30px;
+  transform: scale(1.2,1.2);
+}
+#quiz:hover{
+  border-radius: 30px;
+  transform: scale(1.2,1.2);
+}
+#gallery:hover{
+  border-radius: 30px;
+  transform: scale(1.2,1.2);
+}
+#sitemap:hover{
+  border-radius: 30px;
+  transform: scale(1.2,1.2);
+}
+#about:hover{
+  border-radius: 30px;
+  transform: scale(1.2,1.2);
+}
+/* 
+
+.fa-bars {
+    position: relative;
+    left: 12px;
+    top: 68px;
+}
+
+
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: rgb(0, 0, 0)
+}
+
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+
+} */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.back1 {
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+.ontop {
+    padding-top: 140px;
+}
+
+.secondtop {
+    padding-top: 100px;
+}
+
+.thirdtop {
+    padding-top: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+}
+
+.card {
+    
+    width: 530px;
+    height: 370px;background: #000000;
+    margin: 20px;
+    border-radius: 30px 0px 30px 2px;
+    outline-width: 3px;
+    transition: 0.6s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+
+/* card backgrounds group 1 */
+
+
+
+
+
+.card-image7 {
+    background-color: rgb(128, 128, 128);
+    height: 200px;
+    margin-bottom: 1px;
+    background-size: cover;
+}
+
+
+
+/* card images group 1*/
+
+
+
+.card-image7 {
+    background-image: url("./card_img.jpg");
+}
+
+
+.card h2 {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+.card p {
+    padding: 2px;
+    font-size: 12px;
+    text-align: center;
+    color: #aaaaaa;
+    font-weight: 300;
+    font-family:sans-serif;
+}
+
+.card a {
+    color: rgb(34, 34, 34);
+    position: relative;
+    left: 18px;
+    padding: 2px 2px 20px 2px;
+    display: block;
+    text-align: center;
+    text-shadow: 1px 1px 2px #424242;
+    font-size: 15px;
+    height: 3px;
+    width: 65px;
+    background-color: #ffffff;
+    border-radius: 2px;
+  
+    margin: 20px 60px;
+    transform: scale(1.1);
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.6s ease-out;
+}
+
+.card a:hover {
+    color: rgb(0, 0, 0);
+    padding: 2px 2px 20px 2px;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    height: 3px;
+    width: 65px;
+    border: none;
+    
+    margin: 20px 60px;
+    border-radius: 0px;
+    transform: scale(1.2);
+    text-decoration: none;
+    transition: 0.6s ease-in-out;
+}
+
+
+.card div {
+    border-radius: 30px 0px 30px 0px;
+}
+
+.topics {
+    
+    color: rgb(207, 207, 207);
+    font-size: 40px;
+}
+
+.topics onet, h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.topics:after {
+    border-bottom: 4px solid rgb(51, 51, 51);
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #e2e2e2;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.topics:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.onet {
+    position: absolute;
+    top: 41px;
+    left: 96px;
+}
+
+.twot {
+    position: absolute;
+    left: 96px;
+}
+
+.threet {
+    position: absolute;
+    left: 96px;
+}
+
+
+/* gotoup */
+
+#gotoupp {
+    position: absolute;
+    text-align: center;
+    top: 1294px;
+    left: 1369px;
+    width: 43px;
+    height: 43px;
+    border-radius: 11px;
+    background: linear-gradient(#fdc900 0%, #ef8d04 100%);
+    border: 2px solid #353535;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 3);
+}
+
+#gotoupp:hover {
+    transform: scale(1.1)
+}
+
+#gotoupp h1 {
+    position: relative;
+    bottom: 6px;
+}
+
+#gotoupp h1:hover {
+    position: relative;
+    bottom: 4px;
+    color: #e9e9e9;
+}
+
+
+/* footerstyles */
+
+#pageBottom {
+    position: relative;
+    padding: 0;
+    width: 100%;
+    height: 28vh;
+    background-color: rgb(22, 22, 22);
+    overflow: hidden;
+}
+
+
+/* bottom social media */
+
+#bottomFollow {
+    width: 30%;
+    position: relative;
+    top: 19%;
+    left: 6.2%;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#botomSocialBox {
+    position: relative;
+    top: 28%;
+    left: 6%;
+    width: 10.3%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: -50px;
+}
+
+.botomCircle {
+    background-color: aliceblue;
+    position: relative;
+    bottom: 18.3px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.botomCircle i {
+    padding-top: 9px;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(56, 56, 56);
+}
+
+#botomSocialBox p {
+    font-weight: 700;
+    font-size: 15px;
+    display: inline;
+    top: 9px;
+    left: 50px;
+    color: #f0fc45;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+#botomFacebook {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: 0.7s ease;
+}
+
+#botomFacebook p {
+    color: rgb(50, 50, 255);
+}
+
+#botomFacebook:hover {
+    width: 150px;
+}
+
+#botomFacebook:hover .botomCircle {
+    background-color: rgb(50, 50, 255);
+}
+
+#botomFacebook:hover i {
+    color: white;
+    box-shadow: none;
+}
+
+#botomInsta {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: 0.7s ease;
+}
+
+#botomInsta p {
+    color: rgb(255, 0, 149);
+}
+
+#botomInsta:hover {
+    width: 144px;
+}
+
+#botomInsta:hover .botomCircle {
+    background-color: rgb(255, 0, 149);
+}
+
+#botomInsta:hover i {
+    color: white;
+    box-shadow: none;
+}
+
+#botomYoutube {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: 0.7s ease;
+}
+
+#botomYoutube p {
+    color: red;
+}
+
+#botomYoutube:hover {
+    width: 140px;
+}
+
+#botomYoutube:hover .botomCircle {
+    background-color: red;
+}
+
+#botomYoutube:hover i {
+    color: white;
+    box-shadow: none;
+}
+
+#botomTwitter {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: 0.7s ease;
+}
+
+#botomTwitter p {
+    color: rgb(0, 183, 255);
+}
+
+#botomTwitter:hover {
+    width: 130px;
+}
+
+#botomTwitter:hover .botomCircle {
+    background-color: rgb(0, 183, 255);
+}
+
+#botomTwitter:hover i {
+    color: white;
+    box-shadow: none;
+}
+
+.end {
+    position: relative;
+    bottom: 1.2vh;
+    left: 30%;
+    text-align: center;
+    width: 40%;
+    color: rgb(91, 102, 116);
+}
+
+.pageEditor {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    bottom: 1.8vh;
+    color: rgb(127, 139, 160);
+    text-align: center;
+    border: 1px solid gray;
+    padding: 8px 14px;
+    border-radius: 20px;
+}
+
+.pageEditor:hover {
+    border: 1px solid #002f53;
+    background-color: #002f53;
+    color: #ffffff;
+}
+
+
+/************ bottom Logo *************/
+
+#BBlogoHolder {
+    position: absolute;
+    bottom: 10px;
+    width: 13%;
+    left: 80%;
+    height: 5rem;
+}
+
+#BBsvgFile {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#BBsanHolder {
+    position: relative;
+    width: 200px;
+}
+
+#BBsenBox {
+    width: 90%;
+    position: relative;
+    left: 19%;
+    overflow: hidden;
+}
+
+#BBsentence {
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    color: aliceblue;
+}
+
+#BBsentence span {
+    width: 100%;
+    font-size: 100%;
+}
+
+#BBbar {
+    position: relative;
+    width: 10px;
+    height: 60px;
+    bottom: 4.2rem;
+    right: 0.8rem;
+    background-image: linear-gradient(to bottom, rgb(145, 229, 255), rgb(91, 255, 132));
+}
+
+#BBbox {
+    position: relative;
+    bottom: 5.1rem;
+    left: 109%;
+    height: 20px;
+    width: 20px;
+    background-image: linear-gradient(to right, rgb(145, 229, 255), rgb(91, 255, 132));
+}
+
+.home__data {
+    position: relative;
+    padding-left: 120px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.home__info {
+    position: relative;
+    padding-right: 150px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.home__data-subtitle {
+    font-size: 70px;
+    color: whitesmoke;
+    position: relative;
+    left: -50%;
+
+
+}
+.home__data-title{
+    margin-top: 10%;
+    font-size: 40px;
+    color: rgb(197, 197, 197);
+    position: relative;
+    left: -50%;
+}
+
+.buttonYY{
+        background-color: #005e8a;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: .21rem;
+        box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+        box-sizing: border-box;
+        color: rgba(255, 255, 255, 0.85);
+        cursor: pointer;
+        font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+        position: relative;
+        left: -291px;
+        top: 40px;
+        width: auto;
+        font-weight: 900;
+        text-decoration: none;
+    
+}
+
+.iinfo-title{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    left: 80%;
+    font-size: 50px;
+    top: -290px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(rgb(235, 235, 235), rgb(171, 171, 171));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 0px #fff, 0 0 2px #000000;
+    
+
+} 
+
+#crown {
+    position: relative;
+    top: 50px;
+}
+.iinfo-title1 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    left: 67%;
+    font-size: 40px;
+    top: -300px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(rgb(235, 235, 235), rgb(1, 1, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 0px #ffffff, 0 0 2px #000000;
+
+
+}
+.button__button{
+    position: relative;
+    top: -230px;
+    left: 28%;
+    background-color: #005e8a;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: .21rem;
+        box-shadow: rgba(0, 0, 0, 0.02) 2px 5px 3px 0;
+        box-sizing: border-box;
+        color: rgba(255, 255, 255, 0.85);
+        font-style: bold;
+        font-weight: 900;
+        cursor: pointer;
+        font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        padding: calc(.677rem - 1px) calc(1rem - 1px);
+        width: auto;
+        text-decoration: none;
+}
+.home__info{
+    left: 50px;
+    text-align: center;
+    
+}
+.marco h1{
+    color: white;
+    
+}
